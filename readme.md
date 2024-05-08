@@ -9,7 +9,21 @@ It makes a number of opinionated decisions:
 - PNPM over NPM.
 - Minimal APIs over MVC.
 
-## Getting started:
+## Prerequisites
+
+* .NET 8 SDK
+* PNPM
+
+On Linux, these can be installed using your package manager of choice.
+
+On Windows, these can be installed via WinGet by running the following commands:
+
+```powershell
+winget install --exact --id Microsoft.DotNet.SDK.8
+winget install --exact --id pnpm.pnpm
+```
+
+## Getting started
 
 To get everything installed and set up:
 1. (Optional)  Change the `name` value in `package.json` and the `<UserSecretsId>` value in `ValiantTemplate.csproj` to match your intended app name.
